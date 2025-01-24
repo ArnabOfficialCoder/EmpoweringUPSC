@@ -1,0 +1,100 @@
+/* Chatbot.css */
+
+.chat-division {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rsc-container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .rsc-header {
+    background-color: #3078c0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  
+  .rsc-header-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .rsc-content {
+    background-color: #fffefe;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .rsc-message {
+    font-size: 14px;
+    color: #dc0606;
+    margin-bottom: 5px;
+  }
+  
+  .rsc-message.rsc-message-user {
+    color: #12559e;
+  }
+  
+  .rsc-message.rsc-message-bot {
+    color: #000;
+  }
+  
+  .rsc-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e72b2b;
+    width: calc(100% - 30px);
+    margin: 5px 0;
+  }
+  
+  .rsc-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .rsc-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rsc-options-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .rsc-option-element {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rsc-option-element:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+  
+/* Style for chatbot floating icon */
+.rsc-float-button {
+    background-color: #ffa500 !important;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
